@@ -1,0 +1,27 @@
+﻿.fondo1 {
+    height: 400px;
+    background-image: url("https://www.xtrafondos.com/wallpapers/ubuntu-15-vivid-vervet-3441.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center center;
+}
+.fondo2 {
+    height: 400px;
+    background-image: url("https://images.hdqwalls.com/wallpapers/spiderman-miles-lost-in-space-4k-0f.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center center;
+}
+.centrar {
+    text-align: center
+}
+
+table{
+
+}
+
+.fuente{
+    color:white
+   
+        
+}

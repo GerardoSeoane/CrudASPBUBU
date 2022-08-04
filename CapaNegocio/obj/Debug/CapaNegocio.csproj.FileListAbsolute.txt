@@ -1,0 +1,9 @@
+C:\Curso C#\CRUD BUBU ASP OK\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Curso C#\CRUD BUBU ASP OK\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Curso C#\CRUD BUBU ASP OK\CapaNegocio\bin\Debug\CapaDatos.dll
+C:\Curso C#\CRUD BUBU ASP OK\CapaNegocio\bin\Debug\CapaDatos.pdb
+C:\Curso C#\CRUD BUBU ASP OK\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+C:\Curso C#\CRUD BUBU ASP OK\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Curso C#\CRUD BUBU ASP OK\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+C:\Curso C#\CRUD BUBU ASP OK\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Curso C#\CRUD BUBU ASP OK\CapaNegocio\obj\Debug\CapaNegocio.pdb

@@ -1,0 +1,6 @@
+C:\Curso C#\CRUD BUBU ASP OK\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Curso C#\CRUD BUBU ASP OK\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Curso C#\CRUD BUBU ASP OK\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Curso C#\CRUD BUBU ASP OK\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Curso C#\CRUD BUBU ASP OK\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Curso C#\CRUD BUBU ASP OK\CapaDatos\obj\Debug\CapaDatos.pdb

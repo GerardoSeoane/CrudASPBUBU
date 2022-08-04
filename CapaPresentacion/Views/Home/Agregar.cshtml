@@ -1,0 +1,55 @@
+﻿@using CapaNegocio
+@model ModelPersonas
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width" />
+    <title>Agregar</title>
+    <link href="~/Estilos/CSS.css" type="text/css" rel="stylesheet" />
+
+</head>
+<body class="fondo1">
+    <form method="post">
+        <div class="container-fluid">
+            <div class="container-fluid">
+                <div class="row pt-5">
+
+                    <div class="col-lg-4 col-md-2 col-sm-1"></div>
+                    <div class="col-lg-4 col-md-8 col-sm-10">
+                        <div class="centrar">
+                            <td><a href="/Home/Mostrar" class="btn btn-primary">Pagina Principal</a></td>
+                        </div>
+                        <div class="form-group">
+                            <label for="usr" class="fuente">Nombre:</label>
+                            <input type="text" class="form-control" name="Nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd" class="fuente">Nacionalidad:</label>
+                            <input type="text" class="form-control" name="Nacionalidad">
+                        </div>
+                        <div class="form-group">
+                            <label for="fec" class="fuente">Fecha:</label>
+                            <input type="date" class="form-control" name="Fecha">
+                        </div>
+                        <div>
+                            <input type="submit" class="btn btn-success btn-block" value="Agregar" />
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-2 col-sm-1"></div>
+
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

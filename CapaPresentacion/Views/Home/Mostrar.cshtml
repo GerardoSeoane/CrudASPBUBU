@@ -1,0 +1,57 @@
+﻿@using CapaNegocio;
+@model List<ModelPersonas>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width" />
+    <title>Mostrar</title>
+    <link href="~/Estilos/CSS.css" type="text/css" rel="stylesheet" />
+</head>
+<body class="fondo1">
+    <div class="container-fluid"> 
+       <div class="container-fluid">
+           <div class="row pt-5">
+               <div class="col-lg-2 col-md-2 col-sm-1"></div>
+               <div class="col-lg-8 col-md-8 col-sm-10">
+                   <table class="table table-hover table-dark">
+                       <tr class="centrar">
+                           <td>ID</td>
+                           <td>Nombre</td>
+                           <td>Nacionalidad</td>
+                           <td>Fecha</td>
+                           <td colspan="2"><a href="/Home/Agregar" class="btn btn-primary btn-block"><i class="fa fa-plus"></i></a></td>
+                       </tr>
+                       @foreach (ModelPersonas valor in Model)
+                       {
+                           <tr class="centrar">
+                               <td>@valor.id</td>
+                               <td>@valor.Nombre</td>
+                               <td>@valor.Nacionalidad</td>
+                               <td>@valor.Fecha</td>
+                               <td><a href="/Home/Actualizar/@valor.id" class="btn btn-warning btn-block"><i class="fas fa-pen"></i></a></td>
+                               <td><a href="/Home/Borrar/@valor.id" class="btn btn-danger btn-block"><i class="fa fa-trash"></i></a></td>
+                           </tr>
+                       }
+                   </table>
+               </div>
+               <div class="col-lg-2 col-md-2 col-sm-1"></div>
+
+               @if (TempData["Mensaje"]!="")
+               {
+                   <script>alert("@TempData["Mensaje"].ToString()")</script>
+               }
+           </div>
+       </div>
+    </div>
+</body>
+</html>
